@@ -14,11 +14,13 @@ public class usuario {
     private String Nombre;
     private String apellidos;
     private int edad;
+    private int dni;
 
-    public usuario(String Nombre, String apellidos, int edad) {
+    public usuario(String Nombre, String apellidos, int edad, int dni) {
         this.Nombre = Nombre;
         this.apellidos = apellidos;
         this.edad = edad;
+        this.dni=dni;
     }
     
 }
