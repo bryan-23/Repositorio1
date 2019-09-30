@@ -21,6 +21,5 @@ public class usuario {
         this.apellidos = apellidos;
         this.edad = edad;
         this.dni=dni;
-    }
-    
+    }   
 }
